@@ -2,15 +2,11 @@
   "crons": [
     {
       "path": "/api/reminder",
-      "schedule": "2 * * * *"
+      "schedule": "0 16 * * *"
+    },
+    {
+      "path": "/api/reminder",
+      "schedule": "0 8 * * *"
     }
-  ],
-  "framework": null,
-  "buildCommand": "",
-  "functions": {
-    "api/index.ts": {
-      "maxDuration": 60
-    }
-  },
-  "rewrites": [{ "source": "/(.*)", "destination": "/api" }]
+  ]
 }
