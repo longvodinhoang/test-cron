@@ -8,13 +8,5 @@
       "path": "/api/reminder",
       "schedule": "0 8 * * *"
     }
-  ],
-  "framework": null,
-  "buildCommand": "",
-  "functions": {
-    "api/index.ts": {
-      "maxDuration": 10
-    }
-  },
-  "rewrites": [{ "source": "/(.*)", "destination": "/api" }]
+  ]
 }
